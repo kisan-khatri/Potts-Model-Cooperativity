@@ -35,7 +35,7 @@ most_cooperative.py
 
 #Code Contributions
 
-The code builds upon original implementations by Prof. Dr. Allan Haldane (co-author of this manuscript) [Google Scholar](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en) and incorporates prior modifications by Dr. Joan Gizzio [Google Scholar](https://scholar.google.com/citations?user=D5H_bWEAAAAJ&hl=en) , a former graduate student in our lab. Additional adaptations were made by Kisan Khatri and Prof. Dr. Allan Haldane for the present analysis.
+The code builds upon original implementations by Prof. Dr. Allan Haldane (co-author of this manuscript) [Google Scholar](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en) and incorporates prior modifications by Dr. Joan Gizzio [Google Scholar](https://scholar.google.com/citations?user=D5H_bWEAAAAJ&hl=en) , a former graduate student in our lab. Additional adaptations were made by Kisan Khatri [Google Scholar](https://scholar.google.com/citations?user=IXMrAFsAAAAJ&hl=en) and Prof. Dr. Allan Haldane [Google Scholar](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en)) for the present analysis.
 
 # Example Files:
 The folder 'Example Files' contains all the necessary files to run the 'cooperativity.py' script for ABL1. It gives an ABL1 histogram. You can use the 'most_cooperative.py' script to identify the 10 most cooperative pairs for ABL1. Please see step 5.
