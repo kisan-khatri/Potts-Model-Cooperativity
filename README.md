@@ -4,6 +4,14 @@ DOI: https://doi.org/10.1101/2025.02.10.637534
 This repository contains the code and data used in our study on double mutant cycle (cooperativity) analysis in kinase proteins, as presented in the manuscript. It includes the code to reproduce the histogram shown in the manuscript and to identify the most cooperative double mutant pairs reported. The repository is shared in response to reviewer requests to promote transparency and reproducibility. Permission to share these materials was granted by my advisor, Prof. Dr. Ronald M. Levy [Google Scholar](https://scholar.google.com/citations?user=6CQ_uloAAAAJ&hl=en), who is also the corresponding author of the manuscript.
 
 We used a Potts model of kinase protein families to compute a histogram of double mutation energies (specifically, |min(ΔΔE)|) and to identify the most cooperative mutation pairs in two kinases: ABL1 and PIM1.
+
+# How to cite this code
+If you think this has contributed to the work you are doing, consider citing it in the list of your references. Here is the recommended citation:
+
+Kisan Khatri, Haldane, A., & levy, . ronald . (2025). kisan-khatri/Potts-Model-Cooperativity: v1.0.0 (v1.0.0). 
+
+Zenodo. https://doi.org/10.5281/zenodo.15856333
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856333.svg)](https://doi.org/10.5281/zenodo.15856333)
 # Instruction
 
 For the detailed flow path, please refer to the README.md file located inside the folder Necessary_Files. However, I am providing a brief summary of the steps below.
