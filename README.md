@@ -8,7 +8,7 @@ We used a Potts model of kinase protein families to compute a histogram of doubl
 # How to cite this code
 If you think this has contributed to the work you are doing, consider citing it in the list of your references. Here is the recommended citation:
 
-Kisan Khatri, Haldane, A., & Levy, R. M. (2025). kisan-khatri/Potts-Model-Cooperativity: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15856333
+Khatri, K., Haldane, A., & Levy, R. M. (2025). kisan-khatri/Potts-Model-Cooperativity: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15856333
 
 Zenodo. https://doi.org/10.5281/zenodo.15856333
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856333.svg)](https://doi.org/10.5281/zenodo.15856333)
