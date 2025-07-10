@@ -1,20 +1,19 @@
 This repository provides all relevant code and data to ensure full reproducibility of our results, as requested by the reviewer. We aim to support transparency and allow others to independently validate our findings.
-
 We used a Potts model of Kinase Family proteins to compute a histogram of ΔΔE, specifically (|min(ΔΔE)|), and to identify the most cooperative mutation pairs for two Kinase Proteins, ABL1 and PIM1 as presented in our  AlphaFold Manuscript Entitled: "Using AlphaFold2 to Predict the Conformations of Side Chains in Folded Proteins". To reproduce our results, please follow the following steps.
 
-This following gives information about all the necessary files and instructions.
+Thi following information gives details about all the necessary steps.
 
 ### 1. Key Files and Tools
 
 -MSA file : realigned259_aln {(used to construct the Potts model (J.npy- coupling file)}
 - Couplings: 'J.npy' — obtained using Mi3GPU for kinase protein (We used the Mi3-GPU software package to train the Potts model in our study which is publicly available via its GitHub repository: https://github.com/ahaldane/Mi3-GPU. Please See details at point ###3).
 - MSA and Sequence Files: ABL1.seq, PIM1.seq
-- get_dde.py
+- get_fitness.py
 - Alignment Mapping file: alnMap.npz
 - Cooperativity Data: dde.npy (make sure you use this file for the respective protein I have provided or you can compute for ABL1 and PIM1)
  The dde.npy file is required for the double mutant cycle analysis and can be computed using the following command:
  
- Python get_dde.py  J.npy ABL1.seq  --mode 0 (make sure you have installed the Mi3-GPU software and necessary packages)
+ Python get_fitness.py  J.npy ABL1.seq  --mode 0 (make sure you have installed the Mi3-GPU software and necessary packages)
 
 - Distance Matrix: dist.npy ((make sure you use this file for respective protein)
 - Contact Frequency Data: freq1_IDs.npy
@@ -25,8 +24,8 @@ This following gives information about all the necessary files and instructions.
 ### 2. How to Use
 1. Run 'cooperativity.py' to generate the histogram of double mutant cycles.
     Output file: max_dde_with_pdb.tsv
-2. Use max_dde_with_pdb.tsv to extract the top 10 most cooperative double mutations (most_cooperative.py)
-3. For details on how the distance matrix is computed, see the folder: dist_abl1_2v7a_extra.
+2. Use max_dde_with_pdb.tsv to extract the top 10 most cooperative double mutations (using the script 'most_cooperative.py')
+3. For details on how the distance matrix is computed, see the corresponding README.md in this folder: dist_abl1_2v7a_extra.
 
 ### 3. Reference for Fitting the Potts Model
 Mi3GPU was used for Potts model inference:
@@ -37,11 +36,9 @@ We used the Mi3-GPU software package to train the Potts model in our study which
 ### 4. Notes
 - All necessary files for reproducing our results are included.
 - Scripts used to generate some files are not included, as the final outputs are provided directly.
-- you may get some ideas from the directory fitness_Abl1_2V7A_extra and fitness_PIM1_1XWS_extra
-- make sure you are using correct files for respective proteins (pdb file, distance matrix,bivariate marginal file,dde.npy file and so on).
+- make sure you are using correct files for respective proteins (pdb file, distance matrix,bivariate marginal file,dde.npy file and so on (check files needed in 'cooperativity.py').
 
-
-- fitness_Abl1_2V7A_extra and fitness_PIM1_1XWS_extra are the two main folders for ABL1 and PIM1 which contains additional informations, files and scripts.  But all the necessary files just to reproduce our results are within the folder 'Cooperativity_Analysis'
+The example files are uploaded in Example Files* for quick test.
 
 
 
