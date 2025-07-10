@@ -1,7 +1,7 @@
 # Using AlphaFold2 to Predict the Conformations of Side Chains in Folded Proteins
 DOI: https://doi.org/10.1101/2025.02.10.637534
 
-This repository contains the code and data used in our study on double mutant cycle (cooperativity) analysis in kinase proteins, as presented in the manuscript. It includes the code to reproduce the histogram shown in the manuscript and to identify the most cooperative double mutant pairs reported. The repository is shared in response to reviewer requests to promote transparency and reproducibility. Permission to share these materials was granted by my advisor, Prof. Dr. Ronald M. Levy [Google Scholar](https://scholar.google.com/citations?user=6CQ_uloAAAAJ&hl=en), who is the corresponding author of the manuscript.
+This repository contains the code and data used in our study on double mutant cycle (cooperativity) analysis in kinase proteins, as presented in the manuscript. It includes the code to reproduce the histogram shown in the manuscript and to identify the most cooperative double mutant pairs reported. The repository is shared in response to reviewer requests to promote transparency and reproducibility. Permission to share these materials was granted by my advisor, [Prof. Dr. Ronald M. Levy](https://scholar.google.com/citations?user=6CQ_uloAAAAJ&hl=en), who is the corresponding author of the manuscript.
 
 We used a Potts model of kinase protein families to compute a histogram of double mutation energies, ΔΔE, and to identify the most cooperative mutation pairs in two kinases: ABL1 and PIM1.
 
@@ -35,7 +35,7 @@ most_cooperative.py
 
 #Code Contributions
 
-The code builds upon original implementations by Prof. Dr. Allan Haldane (co-author of this manuscript) [Google Scholar](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en) and incorporates prior modifications by Dr. Joan Gizzio [Google Scholar](https://scholar.google.com/citations?user=D5H_bWEAAAAJ&hl=en) , a former graduate student in our lab. Additional adaptations were made by Kisan Khatri [Google Scholar](https://scholar.google.com/citations?user=IXMrAFsAAAAJ&hl=en) and Prof. Dr. Allan Haldane [Google Scholar](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en)) for the present analysis.All of these contributions were supervised by Prof. Dr. Ronald M. Levy [Prof. Dr. Ronald M. Levy](https://scholar.google.com/citations?user=6CQ_uloAAAAJ&hl=en) who provided guidance throughout this project.
+The code builds upon original implementations by [Prof. Dr. Allan Haldane](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en) , one of the co-authors of this manuscript, and incorporates prior modifications by [Dr. Joan Gizzio](https://scholar.google.com/citations?user=D5H_bWEAAAAJ&hl=en) , a former graduate student in our lab. Additional adaptations were made by [GKisan Khatri](https://scholar.google.com/citations?user=IXMrAFsAAAAJ&hl=en) and [Prof. Dr. Allan Haldane](https://scholar.google.com/citations?user=2MBqxWYAAAAJ&hl=en)) for the present analysis. All of these contributions were supervised by [Prof. Dr. Ronald M. Levy](https://scholar.google.com/citations?user=6CQ_uloAAAAJ&hl=en) who provided guidance throughout this project.
 
 # Example Files:
 The folder 'Example Files' contains all the necessary files to run the 'cooperativity.py' script for ABL1. It gives an ABL1 histogram. You can use the 'most_cooperative.py' script to identify the 10 most cooperative pairs for ABL1. Please see step 5.
