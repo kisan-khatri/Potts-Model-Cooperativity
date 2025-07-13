@@ -29,16 +29,16 @@ Thi following information gives details about all the necessary steps.
 
 ### 3. Reference for Fitting the Potts Model
 Mi3GPU was used for Potts model inference:
-We used the Mi3-GPU software package to train the Potts model in our study whichis publicly available via its GitHub repository: https://github.com/ahaldane/Mi3-GPU. The details of the software can be found in the paper:
+We used the Mi3-GPU software package to train the Potts model in our study which is publicly available via its GitHub repository: https://github.com/ahaldane/Mi3-GPU. The details of the software can be found in the paper:
 
 --> Haldane, Allan, and Ronald M. Levy. "Mi3-GPU: MCMC-based inverse Ising inference on GPUs for protein covariation analysis." *Computer Physics Communications* 260 (2021): 107312.
 
 ### 4. Notes
 - All necessary files for reproducing our results are included.
 - Scripts used to generate some files are not included, as the final outputs are provided directly.
-- make sure you are using correct files for respective proteins (pdb file, distance matrix,bivariate marginal file,dde.npy file and so on (check files needed in 'cooperativity.py').
+- Make sure you are using the correct files for respective proteins (pdb file, distance matrix, bivariate marginal file,dde.npy file and so on (check files needed in 'cooperativity.py').
 
-The example files are uploaded in Example Files* for quick test.
+The example files are uploaded in Example Files* for a quick test.
 
 
 
@@ -46,6 +46,6 @@ For Citation: doi: https://doi.org/10.1101/2025.02.10.637534
       Khatri, Kisan, Ronald M. Levy, and Allan Haldane. "Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts Model vs MSA Transformer." arXiv preprint arXiv:2503.00289 (2025).
 
 
-We hope this helps with reproducing our results. Feel free to contact us for any inquiry.
+We hope this helps with reproducing our results. Feel free to contact us for any inquiries.
 Email: kisan.khatri@temple.edu
        kisankhatri11@gmail.com
