@@ -23,7 +23,7 @@ The multiple sequence alignment (MSA) used in this study is 'realigned259_aln', 
 # Step 3: Calculate Cooperativity (ΔΔE)
 To calculate the ΔΔE, we need a 'dde.npy' file, which can be computed using the command provided inside:
 # calculate_dde.py. 
-This will generate the file 'dde.npy', which is used in the main script cooperativity.py
+This will generate the file 'dde.npy', which is used in the main script cooperativity.py. Note that, the bivariate marginal file is compressed because of its large size.
 # Step 4: Calculate Distance Matrix
 Please take a look at 'Necessary Files/dist_abl1_2v7a_extra/README.md'  for details.
 # Step 5: Run the final script: cooperativity.py
