@@ -10,7 +10,6 @@ If you think this has contributed to the work you are doing, consider citing it 
 
 Khatri, K., Haldane, A., & Levy, R. M. (2025). kisan-khatri/Potts-Model-Cooperativity: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15856333
 
-Zenodo. https://doi.org/10.5281/zenodo.15856333
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856333.svg)](https://doi.org/10.5281/zenodo.15856333)
 # Instruction
 
